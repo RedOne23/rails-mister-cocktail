@@ -1,1 +1,27 @@
 // Specific CSS for your home-page
+h1 {
+  color: rgb(0, 160, 172);
+}
+
+a.cocktail_name {
+  text-decoration: none;
+  color: rgb(0, 160, 172);
+  opacity:0.7;
+  transition: 0.5s ease;
+  &:hover {
+    opacity:1;
+  transition: 0.5s ease;
+  }
+}
+
+.btn {
+  background-color:   rgb(0, 160, 172);
+  opacity:0.7;
+  transition: 0.5s ease;
+  border: none;
+  &:hover {
+    background-color: rgb(0, 160, 172);
+    opacity:1;
+    transition: 0.5s ease;
+  }
+}
