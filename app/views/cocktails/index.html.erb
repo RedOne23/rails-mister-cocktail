@@ -12,6 +12,10 @@
       <ul>
       <%cocktail.doses.each do |dose|%>
       <li><%= "Ingredient : #{dose.description} de #{dose.ingredient.name}" %></li>
+       <%= link_to "Remove",
+                  dose_path(dose),
+                  method: :delete,
+                  data: { confirm: "Are you sure?" } %>
       <%end%>
       </ul>
   </div>
