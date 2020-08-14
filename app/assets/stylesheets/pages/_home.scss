@@ -1,8 +1,18 @@
 // Specific CSS for your home-page
-h1 {
+h1, h3 {
   color: rgb(0, 160, 172);
 }
 
+.remove-link {
+  text-decoration: none;
+  color: rgb(0, 160, 172);
+  &:hover {
+    font-weight:bolder;
+    transition: 0.5 ease;
+    text-decoration: none;
+    color: rgb(0, 160, 172);
+  }
+}
 a.cocktail_name {
   text-decoration: none;
   color: rgb(0, 160, 172);
@@ -24,4 +34,12 @@ a.cocktail_name {
     opacity:1;
     transition: 0.5s ease;
   }
+}
+
+.img-show {
+  margin-bottom: 30px;
+}
+
+.fal {
+  height: 50px;
 }
